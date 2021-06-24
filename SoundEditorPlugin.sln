@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{911E67C6-3D85-4FCE-B560-20A9C3E3FF48}") = "FrostyEditor", "..\..\FrostyEditor\FrostyEditor.exe", "{0300AAFE-048F-4733-AF19-C310A3944BED}"
+	ProjectSection(DebuggerProjectSystem) = preProject
+		PortSupplier = 00000000-0000-0000-0000-000000000000
+		Executable = ../../FrostyEditor\FrostyEditor.exe
+		RemoteMachine = GRENDEL
+		StartingDirectory = F:\Frosty\FrostyEditor
+		Environment = Default
+		LaunchingEngine = 00000000-0000-0000-0000-000000000000
+		UseLegacyDebugEngines = No
+		LaunchSQLEngine = No
+		AttachLaunchAction = No
+		IORedirection = Auto
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SoundEditorPlugin", "SoundEditorPlugin.csproj", "{2528B50A-A148-437D-89EC-F4F1823525B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Developer - Debug|x64 = Developer - Debug|x64
+		Release - Alpha|x64 = Release - Alpha|x64
+		Release - Beta|x64 = Release - Beta|x64
+		Release - Final|x64 = Release - Final|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0300AAFE-048F-4733-AF19-C310A3944BED}.Developer - Debug|x64.ActiveCfg = Release|x64
+		{0300AAFE-048F-4733-AF19-C310A3944BED}.Release - Alpha|x64.ActiveCfg = Release|x64
+		{0300AAFE-048F-4733-AF19-C310A3944BED}.Release - Beta|x64.ActiveCfg = Release|x64
+		{0300AAFE-048F-4733-AF19-C310A3944BED}.Release - Final|x64.ActiveCfg = Release|x64
+		{0300AAFE-048F-4733-AF19-C310A3944BED}.Release|x64.ActiveCfg = Release|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Developer - Debug|x64.ActiveCfg = Developer - Debug|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Developer - Debug|x64.Build.0 = Developer - Debug|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release - Alpha|x64.ActiveCfg = Release - Alpha|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release - Alpha|x64.Build.0 = Release - Alpha|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release - Beta|x64.ActiveCfg = Release - Beta|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release - Beta|x64.Build.0 = Release - Beta|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release - Final|x64.ActiveCfg = Release - Final|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release - Final|x64.Build.0 = Release - Final|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release|x64.ActiveCfg = Release - Alpha|x64
+		{2528B50A-A148-437D-89EC-F4F1823525B4}.Release|x64.Build.0 = Release - Alpha|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97C57F99-719F-4991-BB2B-9187A7A9F296}
+	EndGlobalSection
+EndGlobal
